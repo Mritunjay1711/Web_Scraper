@@ -17,3 +17,18 @@ pip3 install -r requirements.txt
 ````
 Run the program.
  
+# Steps to use(in Windows)
+First create a virtual environment.
+````
+python -m venv <folder_name>
+````
+Activate the virtual environment.
+````
+source <folder_name>\scripts\activate.bat
+````
+Install the requirements.
+````
+pip install -r requirements.txt
+````
+Run the program.
+ 
