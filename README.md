@@ -24,7 +24,7 @@ python -m venv <folder_name>
 ````
 Activate the virtual environment.
 ````
-source <folder_name>\scripts\activate.bat
+<folder_name>\scripts\activate
 ````
 Install the requirements.
 ````
