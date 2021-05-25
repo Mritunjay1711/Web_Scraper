@@ -24,11 +24,9 @@ cat_tags = []
 for i in range(len(list_items)):
     cat_quotes.append(list_items[i])
     cat_names.append(author_name[i])
+    cat_tags.append(tags[i]['content'])
     
-for tag in tags:
-    cat_tags.append(tag['content'])
 
-    
 
 df = pd.DataFrame({
     'Name of the author' : cat_names ,
